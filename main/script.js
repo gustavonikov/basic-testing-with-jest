@@ -1,4 +1,3 @@
-// example
 /**
  * Simulates a very basic search like google.
  *
