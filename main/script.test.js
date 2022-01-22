@@ -13,7 +13,8 @@ const { googleSearch, getAverage } = require('./script');
 
     "expect": a function that is used to test a value together with the matcher function. The
     matcher function complements what you plan to do with that value and can be many, 
-    like "toBe", "toEqual", "not", "toMatch", and so on.
+    like "toBe", "toEqual", "not", "toMatch", and so on. You can find the rest of matchers 
+    here: https://jestjs.io/docs/expect
 */
 describe('googleSearch', () => {
   dbMock = [
