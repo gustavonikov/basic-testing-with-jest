@@ -1,14 +1,17 @@
 const { googleSearch, getAverage } = require('./script');
 
 /* 
-  Glossary to help you understand better:
-    describe: is used to refer to the "object", section or group that is being related to, it breaks 
+  A Glossary to help you understand better:
+    "describe": is used to refer to the "object", section or group that is being related to, it breaks 
     your test suite into small blocks of tests, like components 
 
-    it: a method with prefix to help become more like basic english the logic behind the test, points
-    what you want to do with your test.
+    "it": a method that receives your test with prefix to help your test description become more like 
+    basic english, points what you want to do with your test, semantically.
 
-    expect: a function that is used to test a value, together with the matcher function. The
+    "test": is the same as the "it" prefix, you will use the same way, but the difference is context.
+    You have to use what makes more sense on what you want to test, is about semantic and readability.
+
+    "expect": a function that is used to test a value together with the matcher function. The
     matcher function complements what you plan to do with that value and can be many, 
     like "toBe", "toEqual", "not", "toMatch", and so on.
 */
@@ -44,7 +47,7 @@ describe('getAverage', () => {
   it('throws an error if that is not an array', () => {
     expect(() => getAverage(undefined)).toThrow(Error)
     expect(() => getAverage('20, 30')).toThrow(Error)
-    // just to examplify that works with the message as well
+    // just to exemplify that works with the message as well
     expect(() => getAverage([1]))
       .toThrow('Invalid input, must be an array containing at least two numbers.') 
     expect(() => getAverage(20))
