@@ -1,5 +1,15 @@
 # Testing Exercise - Unit tests
 
+## What are Unit tests and why use it?
+
+Unit Tests are a type of testing which purpose is to
+validate all the I/O of your application, by testing the small
+pieces of your code, may they be functions, methods, components, modules, etc.
+They help to improve the maintenance and stability of the application, and are
+very easy, cheap and quick to integrate.
+
+## Introduction
+
 Unit tests with [Jest](https://jestjs.io/pt-BR/), a great framework for it :), but why am I using Jest?
 With Jest you can fulfill all the five types of tools that we use on unit tests, bringing also to the context of web development.
 I'm gonna tell what these 5 types of tools are, recommending also the frameworks most used for it.
