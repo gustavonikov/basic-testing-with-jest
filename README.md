@@ -48,7 +48,7 @@ Some of the tools that we have are: [Jest](https://jestjs.io/pt-BR/), [Jasmine](
 
 5. And the last tool we have, is called "Code Coverage". Is a tool that allows us to know how much of code is covered with tests, in the most cases
 show us a table with the analysis of the statements, functions, lines and more of our files that are covered. <br>
-Some of the tools that we used for that: [Istanbul](https://istanbul.js.org/), [Jest](https://jestjs.io/pt-BR/) (Jest uses Istanbull behind it).
+Some of the tools that we used for that: [Istanbul](https://istanbul.js.org/), [Jest](https://jestjs.io/pt-BR/) (Jest uses Istanbul behind it).
 
 ### Conclusion
 
