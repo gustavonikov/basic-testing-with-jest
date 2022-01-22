@@ -1,5 +1,17 @@
 const { googleSearch, getAverage } = require('./script');
 
+/* 
+  Glossary to help you understand better:
+    describe: is used to refer to the "object", section or group that is being related to, it breaks 
+    your test suite into small blocks of tests, like components 
+
+    it: a method with prefix to help become more like basic english the logic behind the test, points
+    what you want to do with your test.
+
+    expect: a function that is used to test a value, together with the matcher function. The
+    matcher function complements what you plan to do with that value and can be many, 
+    like "toBe", "toEqual", "not", "toMatch", and so on.
+*/
 describe('googleSearch', () => {
   dbMock = [
     'dogs.com',

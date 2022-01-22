@@ -1,3 +1,5 @@
+// Some functions to serve as a basis for our tests.
+
 /**
  * Simulates a very basic search like google.
  *
