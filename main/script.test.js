@@ -39,13 +39,13 @@ describe('getAverage', () => {
       .toThrow('Invalid input, must be an array containing at least two numbers.')
   })
 
-  it('does not calculate the average if all grades are not type number and returns undefined',
+  it('does not calculate the average if all elements are not type number and returns undefined',
     () => {
       expect(getAverage([null, 8, []])).toBeUndefined()
     }
   )
   
-  it('does not calculate the average if all grades are not type number and shows a console error',
+  it('does not calculate the average if all elements are not type number and shows a console error',
     () => {
       const consoleSpy = jest
         .spyOn(console, 'error')
