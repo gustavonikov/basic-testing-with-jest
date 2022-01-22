@@ -53,7 +53,7 @@ Some of the tools that we used for that: [Istanbul](https://istanbul.js.org/), [
 ### Conclusion
 
 Well, as you can see for Unit tests Jest has all the features that we need, making easier start to write some tests,
-because you don't need to spend much time making the setup and also help those who don't know how to make more complex ones,
+because you don't need to spend much time making the setup and also helps those who don't know how to make more complex ones,
 like Mocha + Chai + Sinon + Istanbul for example.
 
 ## Getting started
