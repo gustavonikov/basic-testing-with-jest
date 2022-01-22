@@ -68,13 +68,13 @@ describe('getAverage', () => {
     }
   )
 
-  it('returns the average as a number', () => {
+  test('if the average is really returning a value of type number', () => {
     expect(typeof getAverage([5, 5])).toBe('number')
     expect(typeof getAverage([5, 17, 9.6])).toBe('number')
     expect(typeof getAverage([5, 17, 10.5, 34])).toBe('number')
   })
 
-  it('returns a float number with only two decimal places', () => {
+  test('if returns a float number with only two decimal places', () => {
     const hasTwoDecimalPlaces = /^\d+.\d{2}$/
     const average = getAverage([5, 17, 9.6])
   
