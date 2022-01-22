@@ -1,6 +1,6 @@
 # Testing Exercise - Unit tests
 
-Unitary tests with [Jest](https://jestjs.io/pt-BR/), a great framework for unit test :), but why am I using Jest?
+Unit tests with [Jest](https://jestjs.io/pt-BR/), a great framework for it :), but why am I using Jest?
 With Jest you can fulfill all the five types of tools that we use on unit tests, bringing also to the context of web development.
 I'm gonna tell what these 5 types of tools are, recommending also the frameworks most used for it.
 And at the end you will see why I picked Jest.
