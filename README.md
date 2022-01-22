@@ -7,7 +7,7 @@ And at the end you will see why I picked Jest.
 
 Let's begin:
 
-1. The first is the Scaffolding tools, the structure to begin writing our tests, the tool provides methods to do it.<br>
+1. The first are the Scaffolding tools, the structure to begin writing our tests, the tool provides methods to do it.<br>
 Some of these tools are: [Jest](https://jestjs.io/pt-BR/), [Jasmine](https://jasmine.github.io/), [Mocha](https://mochajs.org/), [Cypress](https://www.cypress.io/).
 
 2. For the second we have an Assertion tool, providing ways to assert the logic and values that we need for the test to work.
