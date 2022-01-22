@@ -1,7 +1,7 @@
 // Some functions to serve as a basis for our tests.
 
 /**
- * Simulates a very basic search like google.
+ * Simulates a very simplified version of google search.
  *
  * @param   {string}  searchInput 
  * @param   {string[]}  database   
