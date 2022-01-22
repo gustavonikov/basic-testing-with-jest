@@ -6,4 +6,4 @@ To start:
 
 1. Clone repo
 2. Run `npm install`
-3. Run `npm test` or `npm run jest`
+3. Run `npm test` or `npm run jest` if you want to watch your tests file soon as you modify then.
