@@ -13,13 +13,14 @@ Some of these tools are: [Jest](https://jestjs.io/pt-BR/), [Jasmine](https://jas
 2. For the second we have an Assertion tool, providing ways to assert the logic and values that we need for the test to work.
 And it comes with syntaxes that seems like basic English, making easy to understand. Let me show and example of that:
 
-    ```
+    ``` javascript
       it('calculates a sum of two numbers', () => {
          const value = 2 + 2;
          expect(value).toEqual(4)
          expect(value).toBeGreaterThan(3);
         })
-    ```   
+    ```
+
       Some of these tools are: [Jest](https://jestjs.io/pt-BR/), [Jasmine](https://jasmine.github.io/), [Chai](https://www.chaijs.com/), [Cypress](https://www.cypress.io/).
 
 3. The third one is the "Test Runner", as the name suggest it reads the tests that we wrote and executes all of them without us doing nothing, unless
@@ -27,21 +28,20 @@ type a command. And it can run in the browser or on the server.
 Some of these tools are: [Jest](https://jestjs.io/pt-BR/), [Jasmine](https://jasmine.github.io/), [Mocha](https://mochajs.org/), [Karma](https://karma-runner.github.io/latest/index.html), [Cypress](https://www.cypress.io/).
 
 4. For the fourth, we have something called "Mocks, Spies and Stubs". What are these? Will only become clear when you start to write some tests,
-but I will try to explain. 
+but I will try to explain.
 Some of the tools that we have are: [Jest](https://jestjs.io/pt-BR/), [Jasmine](https://jasmine.github.io/), [Sinon](https://sinonjs.org/).
     <ul>
-      <li>Mocks is like faking a behaviour or a function to test differents parts of a process, like a call to an API.</li>
+      <li>Mocks is like faking a behavior or a function to test different parts of a process, like a call to an API.</li>
       <li>Spies are methods that provides to us information about functions, if we called them, how many times and so on. </li>
       <li>Stubs replaces selected functions with a function that makes sure that the expected behaviour happens.</li>
     </ul>
-
 
 5. And the last tool we have, is called "Code Coverage". Is a tool that allows us to know how much of code is covered with tests, in the most cases
 show us a table with the analysis of the statements, functions, lines and more of our files that are covered. <br>
 Some of the tools that we used for that: [Istanbul](https://istanbul.js.org/), [Jest](https://jestjs.io/pt-BR/) (Jest uses Istanbull behind it).
 
-Well, as you can see for Unit tests Jest has all the features that we need, making easier start to write some tests, 
-because you don't need to spend much time making the setup and for those who don't know how to make more complex ones, 
+Well, as you can see for Unit tests Jest has all the features that we need, making easier start to write some tests,
+because you don't need to spend much time making the setup and for those who don't know how to make more complex ones,
 like Mocha + Chai + Sinon + Istanbul for example.
 
 ## Getting started
