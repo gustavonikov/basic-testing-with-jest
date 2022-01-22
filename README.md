@@ -1,6 +1,6 @@
 # testing-exercise
 
-Testing with Jest
+Testing with [Jest](https://jestjs.io/pt-BR/), a great framework for tests :)
 
 To start:
 
