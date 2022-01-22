@@ -50,8 +50,10 @@ Some of the tools that we have are: [Jest](https://jestjs.io/pt-BR/), [Jasmine](
 show us a table with the analysis of the statements, functions, lines and more of our files that are covered. <br>
 Some of the tools that we used for that: [Istanbul](https://istanbul.js.org/), [Jest](https://jestjs.io/pt-BR/) (Jest uses Istanbull behind it).
 
+### Conclusion
+
 Well, as you can see for Unit tests Jest has all the features that we need, making easier start to write some tests,
-because you don't need to spend much time making the setup and for those who don't know how to make more complex ones,
+because you don't need to spend much time making the setup and also help those who don't know how to make more complex ones,
 like Mocha + Chai + Sinon + Istanbul for example.
 
 ## Getting started
