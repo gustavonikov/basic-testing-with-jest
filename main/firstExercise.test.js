@@ -1,4 +1,4 @@
-const { googleSearch, getAverage } = require('./script');
+const { googleSearch, getAverage } = require('./firstExercise');
 
 /* 
   A Glossary to help you understand better:
