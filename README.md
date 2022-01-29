@@ -5,7 +5,7 @@
 Unit Tests are a type of testing which purpose is to
 validate all the I/O of your application, by testing the small
 pieces of your code, they can be functions, methods, components, modules, etc.
-They help to improve the maintenance and stability of the application, are
+It helps to improve the maintenance and stability of the application, are
 very easy, cheap and quick to integrate.
 
 ## Introduction
