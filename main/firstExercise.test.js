@@ -64,7 +64,7 @@ describe('getAverage', () => {
   it('does not calculate the average if all elements are not type number and shows a console error',
     () => {
       const consoleSpy = jest
-        .spyOn(console, 'error')
+        .spyOn(console, 'error') // First use of Spies that we talked about
         .mockImplementation(() => {})
 
       getAverage([7, '2', 10]);
