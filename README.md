@@ -40,11 +40,11 @@ Some of these tools are: [Jest](https://jestjs.io/pt-BR/), [Jasmine](https://jas
 4. For the fourth, we have something called "Mocks, Spies and Stubs". What are these? Will only become clear when you start to write some tests,
 but I will try to explain.
 Some of the tools that we have are: [Jest](https://jestjs.io/pt-BR/), [Jasmine](https://jasmine.github.io/), [Sinon](https://sinonjs.org/).
-    <ul>
-      <li>Mocks is like faking a behavior or a function to test different parts of a process, like a call to an API.</li>
-      <li>Spies are methods that provides to us information about functions, if we called them, how many times and so on. </li>
-      <li>Stubs replaces selected functions with a function that makes sure that the expected behaviour happens.</li>
-    </ul>
+  
+   * Mocks is like faking a behavior or a function to test different parts of a process, like a call to an API.
+   * Spies are methods that provides to us information about functions, if we called them, how many times and so on. 
+   * Stubs replaces selected functions with a function that makes sure that the expected behaviour happens.
+
 
 5. And the last tool we have, is called "Code Coverage". Is a tool that allows us to know how much of code is covered with tests, in the most cases
 show us a table with the analysis of the statements, functions, lines and more of our files that are covered. <br>
@@ -62,4 +62,10 @@ like Mocha + Chai + Sinon + Istanbul for example.
 
 1. Clone repo
 2. Run `npm install`
-3. Run `npm test` or `npm run jest` if you want to watch your files and run the tests soon as you modify them.
+3. Start to running some tests.
+
+* Run `npm test` to run all the tests made.
+* Run `npm run sync` to run all the synchronous tests.
+* Run `npm run async` to run all the asynchronous tests.
+* Run `npm run coverage` to see if the tests performed cover all existing modules and functions.
+
