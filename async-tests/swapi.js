@@ -1,4 +1,4 @@
-// Now a little bit more realistic examples. To this second example we gonna divide in 3 test files.
+// Now a little bit more realistic examples. To this second example we gonna divide in 2 test files.
 const fetch = require('node-fetch')
 
 /**
