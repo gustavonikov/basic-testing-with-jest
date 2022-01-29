@@ -3,7 +3,7 @@ const swapi = require('./swapi')
 // Replaces the module 'swapi' for the mock that we created in __mocks__ directory.
 jest.mock('./swapi')
 
-/* Let's repeat the tests that we did on the second exercise, but now with the mock that we made. 
+/* Let's repeat the tests that we did on the previous, but now with the mock that we made. 
   Pay attention on how much time was spent to run the tests with mock and without it.
 */
 describe('getStarWarsCharacters', () => {
