@@ -5,7 +5,9 @@
   "main": "script.js",
   "scripts": {
     "test": "jest",
-    "jest": "jest --watch *.js"
+    "sync": "jest --watch sync-tests",
+    "async": "jest --watch async-tests",
+    "coverage": "jest --coverage"
   },
   "keywords": [],
   "author": "",
