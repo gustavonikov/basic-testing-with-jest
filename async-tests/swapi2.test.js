@@ -1,12 +1,13 @@
+// Now with Mocking
 const swapi = require('./swapi')
 
 // Replaces the module 'swapi' for the mock that we created in __mocks__ directory.
 jest.mock('./swapi')
 
-/* Let's repeat the tests that we did on the previous file, but now with the mock that we made. 
-  Pay attention on how much time was spent to run the tests with mock and without it. */
+/* Let's repeat the tests and dig deep a little more that we did on the previous file, 
+  but now with the mock that we made. Pay attention on how much time was spent to run 
+  the tests with mock and without it. */
 describe('getStarWarsCharacters', () => {
-  // We can use beforeEach to expect the assertions in each test instead writing to each one as before.
   beforeEach(() => {
     expect.assertions(2)
   })
@@ -34,8 +35,8 @@ describe('getStarWarsCharacters', () => {
 })
 
 describe('getStarWarsCharacter', () => {
+  // We can use beforeEach to expect the assertions in each test instead writing to each one as before.
   beforeEach(() => {
-    // We can use hasAssertions instead "assertions" to see if has been called at least one time.
     expect.hasAssertions()
   })
 
@@ -44,11 +45,9 @@ describe('getStarWarsCharacter', () => {
     expect(swapi.getStarWarsCharacter).toHaveReturned()
   })
 
-  // We can use nested describe blocks to specify even more our tests.  
   describe('assert character infos', () => {
     let character = {}
 
-    // We can do this to not make character api call in each test.
     beforeEach(async () => {
       character = await swapi.getStarWarsCharacter('Luke')
     })
