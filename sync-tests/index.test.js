@@ -1,4 +1,4 @@
-const { googleSearch, getAverage } = require('./firstExercise');
+const { googleSearch, getAverage } = require('./index');
 
 /* 
   A Glossary to help you understand better:
