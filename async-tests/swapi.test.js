@@ -37,8 +37,40 @@ describe('getStarWarsCharacters', () => {
       expect(data.count).toBeGreaterThan(80)
     })
   })
-
-  /* But if I tell you that how we did above it's not a good way to test api calls? 
-  See, it takes too much time to make each one of this call, imagine many of them...
-  would take too long to finish the tests. And how should we do it? Using mocks! :D */
 })
+
+describe('getStarWarsCharacter', () => {
+  beforeEach(() => {
+    // We can use hasAssertions instead "assertions" to see if has been called at least one time.
+    expect.hasAssertions()
+  })
+
+   // We can use nested describe blocks to specify even more our tests.  
+  describe('assert character infos', () => {
+    let character
+
+      // We can do this to not make character api call in each test.
+    beforeEach(async () => {
+      character = await swapi.getStarWarsCharacter('Luke')
+    })
+
+    it('returns the correct character', () => {
+      expect(character.name).toEqual('Luke Skywalker')
+    })
+  
+    it('returns the character hair color', () => {
+      expect(character).toHaveProperty('hair_color')
+    })
+  })
+
+  it('returns an empty object if has no character with that name', async () => {
+    expect(await swapi.getStarWarsCharacter('bumba')).toEqual({})
+  })
+})
+
+/* 
+But if I tell you that how we did above it's not a good way to test api calls? 
+See, it takes too much time to make each one of these calls, imagine many of them as 
+your project grows... would take too long to finish the tests. 
+And how should we do it? Using mocks! :D 
+*/
