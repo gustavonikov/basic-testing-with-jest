@@ -14,7 +14,7 @@ describe('getStarWarsCharacters', () => {
     expect(charactersData).toHaveProperty('results')
   })
 
-  it('calls star wars API to get characters and verify info types', (done) => {
+  it('calls star wars API to get characters and verifies info types', (done) => {
     expect.assertions(2)
 
     swapi.getStarWarsCharacters().then(data => {
@@ -24,7 +24,7 @@ describe('getStarWarsCharacters', () => {
     })
   })
   
-  it('calls stars wars API to get characters and verify characters count', () => {
+  it('calls stars wars API to get characters and verifies characters count', () => {
     expect.assertions(2)
 
     return swapi.getStarWarsCharacters().then(data => {
