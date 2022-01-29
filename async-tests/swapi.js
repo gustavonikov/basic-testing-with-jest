@@ -27,7 +27,7 @@ const fetch = require('node-fetch')
  */
 
 /**
- * Get all Stars Wars characters from "swapi" API.
+ * Gets all Stars Wars characters from "swapi" API.
  *
  * @return  {Promise<CharactersData>} 
  */
@@ -48,7 +48,7 @@ const getStarWarsCharacters = async () => {
 }
 
 /**
- * Get a Star Wars character by name.
+ * Gets a Star Wars character by name.
  *
  * @param   {string}  characterName  - E.g: 'Luke' or 'Luke Skywalker'.
  *
