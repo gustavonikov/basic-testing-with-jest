@@ -56,7 +56,7 @@ Well, as you can see for Unit tests Jest has all the features that we need, maki
 because you don't need to spend much time making the setup and also helps those who don't know how to make more complex ones,
 like Mocha + Chai + Sinon + Istanbul for example.
 
-**TIP**: Beside the [Jest doc](https://jestjs.io/pt-BR/docs/getting-started), you also can use [Jest Cheat Sheet](https://github.com/sapegin/jest-cheat-sheet) to see a summary of the most used features of Jest and how to use it.
+**TIP**: besides the [Jest doc](https://jestjs.io/pt-BR/docs/getting-started), you also can use [Jest Cheat Sheet](https://github.com/sapegin/jest-cheat-sheet) to see a summary of the most used features of Jest and how to use it.
 
 ## Getting started
 
