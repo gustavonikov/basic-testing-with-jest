@@ -35,8 +35,8 @@ describe('getStarWarsCharacters', () => {
 })
 
 describe('getStarWarsCharacter', () => {
-  // We can use beforeEach to expect the assertions in each test instead writing to each one as before.
   beforeEach(() => {
+    // We can use hasAssertions instead "assertions" to see if has been called at least one time.
     expect.hasAssertions()
   })
 
