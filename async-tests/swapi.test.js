@@ -40,18 +40,15 @@ describe('getStarWarsCharacters', () => {
 })
 
 describe('getStarWarsCharacter', () => {
-  beforeEach(() => {
-    // We can use hasAssertions instead "assertions" to see if has been called at least one time.
-    expect.hasAssertions()
-  })
-
-   // We can use nested describe blocks to specify even more our tests.  
+  // We can use nested describe blocks to specify even more our tests.  
   describe('assert character infos', () => {
     let character
 
-      // We can do this to not make character api call in each test.
+    /* We can use beforeEach to not repeat code to each test as before, 
+    like expect.assertions() and make the api call.*/
     beforeEach(async () => {
       character = await swapi.getStarWarsCharacter('Luke')
+      expect.assertions(1)
     })
 
     it('returns the correct character', () => {
