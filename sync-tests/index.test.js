@@ -29,8 +29,6 @@ describe('googleSearch', () => {
   })
   
   it('is working', () => {
-    dbMock[0] = 'alohomora.com'
-    console.log(dbMock)
     expect(googleSearch('dog', dbMock)).toContain(['dogs.com', 'dogpictures.com'])
   })
   
