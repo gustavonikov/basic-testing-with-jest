@@ -29,7 +29,9 @@ describe('googleSearch', () => {
   })
   
   it('is working', () => {
-    expect(googleSearch('dog', dbMock)).toEqual(['dogs.com', 'dogpictures.com'])
+    dbMock[0] = 'alohomora.com'
+    console.log(dbMock)
+    expect(googleSearch('dog', dbMock)).toContain(['dogs.com', 'dogpictures.com'])
   })
   
   it('works with undefined and null input', () => {
